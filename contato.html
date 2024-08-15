@@ -10,6 +10,19 @@
   <link href="css/pages/contato.min.css" rel="stylesheet">
   <!-- CDN do fontawesome para usar a tag i -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    #header nav a.active {
+      background-color: #000;
+    }
+
+    #header nav a.active:hover {
+      background-color: #000;
+    }
+
+    #header nav a:hover {
+      background: rgb(130, 130, 130);
+    }
+  </style>
 </head>
 <body>
   <header id="header" class="page-contato">
@@ -35,7 +48,8 @@
       <div class="row">
         <div class="col col-desktop-12 title">
           <h1>Sono de Qualidade, Sucesso Garantido</h1>
-          <a href="produto.html" class="btn">Começar agora</a>
+          <!-- Correção Botão sem Estilização -->
+          <a href="produto.html" class="btn" style="border: none; border-radius: 30px; padding: 10px 30px; background-color:rgb(130, 130, 130);">Leia Mais</a>
         </div>
       </div>
     </div>
